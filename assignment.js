@@ -63,7 +63,7 @@ function megaFriend(name) {
 
   for (var i = 0; i < name.length; i++) {
     if (name[i].length > length) {
-      var length = name[i].length;
+      length = name[i].length;
       largest = name[i];
     }
   }

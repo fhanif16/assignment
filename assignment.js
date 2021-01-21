@@ -26,9 +26,7 @@ function budgetCalculator(watch, phone, laptop) {
   return total;
 }
 var totalAmount = budgetCalculator(5, 7, 8);
-
 console.log(totalAmount);
-
 
 //problem 3
 // hotelCost
@@ -44,7 +42,6 @@ function hotelCost(day) {
     cost = firstPayment + secondPayment;
   }
   else {
-
     var firstPayment = 10 * 100;
     var remainingPayment = day - 10;
     var secondPayment = remainingPayment * 80;
@@ -73,7 +70,5 @@ function megaFriend(name) {
   return largest;
 }
 var name = ["Mashrafee", "Mushfiq", "Shakib", "Mahmudullah", "Tamim"];
-
-
 var longest = megaFriend(name);
 console.log(longest);
